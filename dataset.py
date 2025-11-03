@@ -58,8 +58,8 @@ class SynergyEncoderDataset(data.Dataset):
         self.device = device
         self.fp_name = fp_name
         self.len = len(self.Y)#具体有多少数据
-        self.features = json.loads(open("./drugcombdb/context_set_m.json", 'r').read())
-        self.drug_set = json.loads(open("./drugcombdb/drug_set.json", 'r').read())
+        self.features = json.loads(open("./drugcomb/context_set_m.json", 'r').read())
+        self.drug_set = json.loads(open("./drugcomb/drug_set.json", 'r').read())
 #./drugcomb/drug-set.json
         # word_embedding_model = models.Transformer("DeepChem/ChemBERTa-77M-MLM", max_seq_length=128)
         # pooling_model = models.Pooling(word_embedding_model.get_word_embedding_dimension())
