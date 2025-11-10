@@ -4,7 +4,7 @@ DFFNDDS: PREDICTION OF SYNERGISTIC DRUG COMBINATIONS WITH DUAL FEATURE FUSION NE
 
 In the "Comparison between different types of models" experiment of the study "A Review of Deep Learning Approaches for Drug Synergy Prediction in Cancer", DFFNDDS is retrained using the DrugComb dataset, and the hyperparameters are readjusted to ensure a fair comparison under consistent experimental conditions:
 
-* batchsize=32
+* batchsize=256
 * learning rate=0.0001
 * epoch=200
 
